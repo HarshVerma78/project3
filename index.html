@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+
+    <title>shopify theme</title>
+  </head>
+  <body>
+
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content text-center">
+        <div class="modal-header ">
+          <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <input type="email" style="border-radius: 30px;margin: 1vh; padding: 1vh;" placeholder="email">
+          <input type="password" style="border-radius: 30px;margin: 1vh; padding: 1vh;" placeholder="password">
+        </div>
+        <div class="modal-footer">
+          <span class="user dont" data-bs-toggle="modal" data-bs-target="#exampleModal">Don't have account ? </span>
+          <button type="button" class="btn btn-warning" style="border-radius: 20px;">login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Button trigger modal -->
+  <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <input type="text" style="border-radius: 30px;margin: 1vh; padding: 1vh;" placeholder="First Name">
+          <input type="text" style="border-radius: 30px;margin: 1vh; padding: 1vh;" placeholder="Last Name">
+          <input type="email" style="border-radius: 30px;margin: 1vh; padding: 1vh;" placeholder="email">
+          <input type="password" style="border-radius: 30px;margin: 1vh; padding: 1vh;" placeholder="password">
+        </div>
+        <div class="modal-footer">
+          <span class="already user" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Already Have an account
+            ?</span>
+          <button type="button" class="btn btn-success" style="border-radius: 20px;">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+
+
+<section class="section coupon  d-flex">
+ <h5>WishList</h5><h5 class="mx-3 px-3">USD</h5><h5 data-bs-toggle="modal" data-bs-target="#staticBackdrop">Account </h5><svg class="my-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+</svg>
+</section>
+<section class="section" id="section1">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/Slider-1-1920x900.png?v=1634640275" alt="Slider Image" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src= "//cdn.shopify.com/s/files/1/0271/9288/5345/files/Slider-1-1920x900.png?v=1634640275" alt="Slider Image" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img  src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/Slider-1-1920x900.png?v=1634640275" alt="Slider Image" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <div class="cotainer nav">
+    <nav class="navbar">
+      <div class="lcontent d-flex ">
+        
+        <div class="nimage my-2 text-center shadow-sm" id="cartimage">
+          <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+          </svg>
+        </div>
+        <span class="py-3 px-2">
+        Email at :
+        <br> info@gmail.com
+      </span>
+      </div>
+      <div class="mcontent">
+        <img src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/demo-shop-logo-1544080375_jpg_large.png?v=1573884133" alt="Callisters Sectioned Shopify Theme" itemprop="logo" style="max-width: 100%;width: 262px;">
+      </div>
+      <div class="rcontent d-flex">
+        <div class="nimage my-2 text-center shadow-sm" id="cartimage">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket-fill" viewBox="0 0 16 16">
+            <path d="M5.071 1.243a.5.5 0 0 1 .858.514L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 6h1.717L5.07 1.243zM3.5 10.5a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3z"/>
+          </svg>
+        </div>
+        <span class="py-3 px-2">
+        Cart :
+        <br>$0.00  items
+      </span>
+      </div>
+    </nav>
+
+    
+    <nav class="navbar2 d-flex">
+    
+      <ul class="li d-flex">
+        <li>Christmas</li>
+        <li>Candles</li>
+        <li>Trees</li>
+        <li>Collections</li>
+        <li>Include Pages</li>
+        <li>About Us</li>
+        <li>FAQs</li>
+      </ul>
+      
+      <div class="d-flex" id="search">
+      <input type="search" placeholder="search">
+      <svg class="searchImage" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+      </svg>
+    </div>
+    </nav>
+    <div class="nav34">
+    <nav class="navbar3 d-flex my-3 ">
+      <div class="burger" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+      aria-controls="offcanvasExample">
+
+      <li></li>
+      <li></li>
+      <li></li>
+    </div>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
+            etc.
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+              data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <div class="searchicon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+    </svg>
+  </div>
+  <div class="mid2345">
+    <img src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/demo-shop-logo-1544080375_jpg_large.png?v=1573884133" alt="Callisters Sectioned Shopify Theme" itemprop="logo" style="max-width: 100%;width: 262px;">
+  </div>
+  <div class="right2">
+    <svg data-bs-toggle="modal" data-bs-target="#staticBackdrop" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+      <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+    </svg>
+  </div>
+  <div class="right23">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16">
+      <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
+    </svg>
+  </div>
+    </nav>
+  </div>
+  </div>
+
+
+
+
+
+
+
+</section>
+<section class="section  " id="section2">
+  <div class="container2 ">
+  <div class="images  text-center">
+  <img class="shadow-sm lazyloaded" data-src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/2_df459367-9509-4390-9201-3f2260611035.png?v=1573290242" alt="service Image" src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/2_df459367-9509-4390-9201-3f2260611035.png?v=1573290242"><br>
+  <b>World Wide Delivery </b> <br> Lorem ipsum dolor sit amet consectetur.
+</div>
+  <div class="images  text-center">
+    <img class="shadow-sm lazyloaded" data-src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/4.png?v=1573290246" alt="service Image" src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/4.png?v=1573290246">  <br> <b>Secure Payment</b><br> Lorem ipsum dolor sit amet consectetur.</div>
+  <div  class="images  text-center">
+    <img class="shadow-sm lazyloaded" data-src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/5.png?v=1573290254" alt="service Image" src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/5.png?v=1573290254">  <br><b>Gift Vouchers</b><br> Lorem ipsum dolor sit amet consectetur.</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+<section class="section trending">
+  <h2 class="text-center">
+    Trending Products
+  <div class="seprator-img" style="background: url('//cdn.shopify.com/s/files/1/0271/9288/5345/files/border.png?v=1580202496');"></div>
+</h2>
+</section>
+
+
+
+<section class="section buttons d-flex">
+  <div class="text-center">
+  <button class="btn btn-outline-warning">Featured</button>
+  <button class="btn btn-outline-warning">Best Seller</button>
+  <button class="btn btn-outline-warning">Trending</button>
+</div>
+</section>
+
+
+<section class="section container trending-products">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-lg-3 pc">
+            
+        <div class="pcard">
+          <h1>Tailored Shirt</h1>
+        <img src="shirt.jpg" alt="shirt image" style="width:100%">
+        <p class="price">Rs. 1500</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quia.</p>
+        <button>Add to Cart</button>
+        </div>
+          </div>
+          <div class="col-lg-3 pc">
+            <div class="pcard">
+          <h1>Tailored Shirt</h1>
+        <img src="shirt.jpg" alt="shirt image" style="width:100%">
+        <p class="price">Rs. 1500</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quia.</p>
+        <button>Add to Cart</button>
+        </div>
+          </div>
+          <div class="col-lg-3 pc">
+            <div class="pcard">
+          <h1>Tailored Shirt</h1>
+        <img src="shirt.jpg" alt="shirt image" style="width:100%">
+        <p class="price">Rs. 1500</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quia.</p>
+        <button>Add to Cart</button>
+        </div>
+          </div>
+          <div class="col-lg-3 pc">
+            <div class="pcard">
+          <h1>Tailored Shirt</h1>
+        <img src="shirt.jpg" alt="shirt image" style="width:100%">
+        <p class="price">Rs. 1500</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quia.</p>
+        <button>Add to Cart</button>
+        </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-lg-3 pc">
+            
+        <div class="pcard">
+          <h1>Tailored Shirt</h1>
+        <img src="shirt.jpg" alt="shirt image" style="width:100%">
+        <p class="price">Rs. 1500</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quia.</p>
+        <button>Add to Cart</button>
+        </div>
+          </div>
+          <div class="col-lg-3 pc">
+            <div class="pcard">
+          <h1>Tailored Shirt</h1>
+        <img src="shirt.jpg" alt="shirt image" style="width:100%">
+        <p class="price">Rs. 1500</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quia.</p>
+        <button>Add to Cart</button>
+        </div>
+          </div>
+          <div class="col-lg-3 pc">
+            <div class="pcard">
+          <h1>Tailored Shirt</h1>
+        <img src="shirt.jpg" alt="shirt image" style="width:100%">
+        <p class="price">Rs. 1500</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quia.</p>
+        <button>Add to Cart</button>
+        </div>
+          </div>
+          <div class="col-lg-3 pc">
+            <div class="pcard">
+          <h1>Tailored Shirt</h1>
+        <img src="shirt.jpg" alt="shirt image" style="width:100%">
+        <p class="price">Rs. 1500</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quia.</p>
+        <button>Add to Cart</button>
+        </div>
+          </div>
+        </div>
+      </div>
+   
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</section>
+
+<a class="btn view btn-warning">View All</a>
+
+<section class="section poster">
+<div class="posters santa bg-danger">
+  <img src="santa.png" alt="">
+</div>
+<div class="posters gifts bg-warning">
+<img src="gifts.png" alt="">
+</div>
+<div class="posters tree bg-success">
+<img src="tree.png" alt="">
+</div>
+
+</section>
+<section class="section">
+  <div class="categories container ">
+    <div class="cat cat1 text-center">
+      <div class="bubble ">
+        <img class=" lazyloaded"
+          data-src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/1_d040ee45-3f0d-4cfd-aa47-d61d562af21a.png?v=1573446386"
+          alt="Icon"
+          src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/1_d040ee45-3f0d-4cfd-aa47-d61d562af21a.png?v=1573446386">
+      </div>
+      <h2 class="text-center  text-danger">Santa Hat</h2><br>Lorem ipsum dolor sit<br>elit. Quos, recusandae!
+      <div class="bubble"><img class=" lazyloaded"
+          data-src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/2_12d23c9a-39bc-420a-9945-fd95a0bceed2.png?v=1573446396"
+          alt="Image"
+          src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/2_12d23c9a-39bc-420a-9945-fd95a0bceed2.png?v=1573446396">
+      </div>
+      <h2 class="text-center  text-danger">Christams bell</h2><br>Lorem ipsum dolor sit <br>elit. Quos, recusandae!
+    </div>
+    <div class="cat cat2 text-center"><img class=" lazyloaded"
+        data-src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/4b18d82eb244c2f7ff021c597fdc8540.png?v=1573303900"
+        alt="Image"
+        src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/4b18d82eb244c2f7ff021c597fdc8540.png?v=1573303900">
+      <h2>TOP CATEGORIES
+        <div class="seprator-img"
+          style="background: url('//cdn.shopify.com/s/files/1/0271/9288/5345/files/border.png?v=1580202496');"></div>
+
+      </h2>
+    </div>
+    <div class="cat cat3">
+      <div class="bubble text-center"><img class=" lazyloaded"
+          data-src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/3_0e082651-b321-4d78-9eed-89916dca2473.png?v=1573446392"
+          alt="Image"
+          src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/3_0e082651-b321-4d78-9eed-89916dca2473.png?v=1573446392">
+      </div>
+      <h2 class="text-center text-danger">Reath</h2><br>Lorem ipsum dolor sit<br>elit. Quos, recusandae!
+      <div class="bubble "><img class=" lazyloaded"
+          data-src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/4_a9cefb46-75d0-40ba-b081-f2c522a5f96c.png?v=1573446391"
+          alt="Icon"
+          src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/4_a9cefb46-75d0-40ba-b081-f2c522a5f96c.png?v=1573446391">
+      </div>
+      <h2 class="text-center  text-danger">Gift Card</h2><br>Lorem ipsum dolor sit<br>elit. Quos, recusandae!
+    </div>
+  </div>
+</section>
+
+
+<section class="section spc trending">
+  <h2 class="text-center my-3">
+    Special Products
+  <div class="seprator-img" style="background: url('//cdn.shopify.com/s/files/1/0271/9288/5345/files/border.png?v=1580202496');"></div>
+</h2>
+</section>
+
+
+<section class="section container">
+
+
+  <div class="row">
+    <div class="col-lg-3 pc">
+      
+  <div class="pcard">
+    <h1>Tailored Shirt</h1>
+  <img src="shirt.jpg" alt="shirt image" style="width:100%">
+  <p class="price">Rs. 1500</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quia.</p>
+  <button>Add to Cart</button>
+  </div>
+    </div>
+    <div class="col-lg-3 pc">
+      <div class="pcard">
+    <h1>Tailored Shirt</h1>
+  <img src="shirt.jpg" alt="shirt image" style="width:100%">
+  <p class="price">Rs. 1500</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quia.</p>
+  <button>Add to Cart</button>
+  </div>
+    </div>
+    <div class="col-lg-3 pc">
+      <div class="pcard">
+    <h1>Tailored Shirt</h1>
+  <img src="shirt.jpg" alt="shirt image" style="width:100%">
+  <p class="price">Rs. 1500</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quia.</p>
+  <button>Add to Cart</button>
+  </div>
+    </div>
+    <div class="col-lg-3 pc">
+      <div class="pcard">
+    <h1>Tailored Shirt</h1>
+  <img src="shirt.jpg" alt="shirt image" style="width:100%">
+  <p class="price">Rs. 1500</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quia.</p>
+  <button>Add to Cart</button>
+  </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+
+<section class="section my-4 lr">
+<div class="container abc">
+  <div class="left  ">
+<section class="section spc trending">
+  <h2 class="text-center my-3">
+    Latest News
+  <div class="seprator-img" style="background: url('//cdn.shopify.com/s/files/1/0271/9288/5345/files/border.png?v=1580202496');"></div>
+</h2>
+</section>
+    <div class="row  text-center">
+      <div class="col-lg-6">
+    <div class="card news" style="width: 18rem;">
+      <img class="article__grid-image lazyloaded" data-src="//cdn.shopify.com/s/files/1/0271/9288/5345/articles/1.jpg?v=1573295180" alt="Lorem ipsum dolor sit amet ipsum" src="//cdn.shopify.com/s/files/1/0271/9288/5345/articles/1.jpg?v=1573295180">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+  </div>
+      <div class="col-lg-6">
+    <div class="card news " style="width: 18rem;">
+      <img class="article__grid-image lazyloaded" data-src="//cdn.shopify.com/s/files/1/0271/9288/5345/articles/2_c2b5439f-d1e9-4ac1-81db-9347e7909a2b.jpg?v=1573294915" alt="Upon of seasons dominion" src="//cdn.shopify.com/s/files/1/0271/9288/5345/articles/2_c2b5439f-d1e9-4ac1-81db-9347e7909a2b.jpg?v=1573294915">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+  </div>
+    
+  </div>
+
+  </div>
+  <div class="right">
+
+
+    <section class="section spc trending">
+      <h2 class="text-center my-3">
+        Client Says
+      <div class="seprator-img" style="background: url('//cdn.shopify.com/s/files/1/0271/9288/5345/files/border.png?v=1580202496');"></div>
+    </h2>
+    </section>
+    
+   
+      <div class="client text-center py-3">
+        <div class="cimage text-center shadow-sm">
+          <img class=" lazyloaded" data-src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/T2.png?v=1573296372" alt="Image" src="//cdn.shopify.com/s/files/1/0271/9288/5345/files/T2.png?v=1573296372">
+        </div>
+        <div class="container px-4 py-4 my-3 mx-3">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam inventore nulla nisi eligendi sequi exercitationem, illo ratione ad minima cum!
+      </div>
+      <h3>MERINA D'SOUSA</h3>
+
+
+      </div>
+    
+  </div>
+</section>
+
+<script>
+
+      if (window.innerWidth <= 350) 
+      {
+        $(".posterImage").attr("width","");
+        $(".carImage").attr("height","300");
+      }
+
+      if (window.innerWidth <=600) {
+        $(".pc").addClass("col-lg-12");
+        $(".pc").removeClass("col-lg-3");
+      }
+
+      $(".searchImage").hover(function(){
+        $(this).css("background-color","red");
+      },
+        function(){
+          $(this).css("background-color","yellow");
+        }
+      )
+
+</script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
